@@ -76,32 +76,32 @@ const config: Config = {
         },
       },
       'glow-line-horizontal': {
-        '0%': { opacity: 0, transform: 'translateX(0)' },
-        '5%': { opacity: 1, transform: 'translateX(0)' },
-        '90%': { opacity: 1 },
-        '100%': { opacity: 0, transform: 'translateX(min(60vw, 45rem))' },
+        '0%': { opacity: "0", transform: 'translateX(0)' },
+        '5%': { opacity:"1", transform: 'translateX(0)' },
+        '90%': { opacity: "1" },
+        '100%': { opacity: "0", transform: 'translateX(min(60vw, 45rem))' },
       },
       'glow-line-vertical': {
-        '0%': { opacity: 0, transform: 'translateY(0)' },
-        '5%': { opacity: 1, transform: 'translateY(0)' },
-        '90%': { opacity: 1 },
-        '100%': { opacity: 0, transform: 'translateY(min(21vw, 45rem))' },
+        '0%': { opacity: "0", transform: 'translateY(0)' },
+        '5%': { opacity: "1", transform: 'translateY(0)' },
+        '90%': { opacity: "1" },
+        '100%': { opacity: "0", transform: 'translateY(min(21vw, 45rem))' },
       },
       'fade-in': {
-        from: { opacity: 0, transform: 'translateY(-10px)' },
-        to: { opacity: 1, transform: 'none' },
+        from: { opacity: "0", transform: 'translateY(-10px)' },
+        to: { opacity: "1", transform: 'none' },
       },
       'image-glow': {
         '0%': {
-          opacity: 0,
+          opacity: "0",
           'animation-timing-function': 'cubic-bezier(0.74, 0.25, 0.76, 1)',
         },
         '10%': {
-          opacity: 1,
+          opacity: "1",
           'animation-timing-function': 'cubic-bezier(0.12, 0.01, 0.08, 0.99)',
         },
         '100%': {
-          opacity: 0.2,
+          opacity: "0.2",
         },
       },
       'image-rotate': {
@@ -111,10 +111,10 @@ const config: Config = {
         '100%': { transform: 'none' },
       },
       'sketch-lines': {
-        '0%': { 'stroke-dashoffset': 1 },
-        '50%': { 'stroke-dashoffset': 0 },
-        '99%': { 'stroke-dashoffset': 0 },
-        '100%': { visiblity: 'hidden' },
+        '0%': { 'stroke-dashoffset': "1" },
+        '50%': { 'stroke-dashoffset': "0" },
+        '99%': { 'stroke-dashoffset': "0" },
+        '100%': { visibility: 'hidden' },
       },
       zap: {
         '0%, 9%, 11%, 100% ': {
