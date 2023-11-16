@@ -58,12 +58,12 @@ export const Shortcuts = [
 ];
 
 export const NavLinks = [
-  { href: "/features", label: "Features", className: "hidden md:block" },
-  { href: "/method", label: "Method", className: "hidden md:block" },
-  { href: "/customers", label: "Customers", className: "hidden md:block" },
-  { href: "/changelog", label: "Changelog", className: "hidden md:block" },
-  { href: "/integrations", label: "Integrations", className: "hidden md:block" },
-  { href: "/pricing", label: "Pricing", className: "hidden md:block" },
-  { href: "/contact", label: "Contact", className: "hidden md:block" },
-  { href: "/company", label: "Company", className: "hidden md:block" },
+  { href: "/features", label: "Features", className: " md:block" },
+  { href: "/method", label: "Method", className: " md:block" },
+  { href: "/customers", label: "Customers", className: " md:block" },
+  { href: "/changelog", label: "Changelog", className: " md:block" },
+  { href: "/integrations", label: "Integrations", className: " md:block" },
+  { href: "/pricing", label: "Pricing", className: " md:block" },
+  { href: "/contact", label: "Contact", className: " md:block" },
+  { href: "/company", label: "Company", className: " md:block" },
 ];

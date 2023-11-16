@@ -48,6 +48,7 @@ const config: Config = {
         300: '#b4bcd0',
         400: '#858699',
         500: '#222326',
+        600: 'hsla(0,0%,100%,.07)'
       },
       transparent: 'transparent',
       white: '#fff',

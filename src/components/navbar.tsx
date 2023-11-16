@@ -1,3 +1,4 @@
+"use client"
 import { NavLinks as Links } from "@/lib/data";
 import clsx from "clsx";
 import Link from "next/link";
@@ -22,20 +23,20 @@ export const NavBar = ({ isOpen }: NavBarProps) => {
             : "translate-x-[-100vw] opacity-0"
         )}
       >
-        <ul className="flex h-full flex-col ease-in md:flex-row md:items-center space-x-7">
+        <ul className="flex h-full flex-col ease-in md:flex-row md:items-center px-6 md:space-x-7">
           {Links.map((link) => (
             <li
               key={link.label}
               className={clsx(
-                "border-b border-gray-500 md:border-none",
+                "border-b-[1px] border-gray-600 md:border-none",
                 link.className
               )}
             >
               <Link
                 href={link.href}
                 className={clsx(
-                  "flex h-20 w-full translate-y-8 items-center transition-[color,transform] duration-300 hover:text-gray-400 md:translate-y-0 md:text-sm md:transition-colors",
-                  isOpen && "translate-y-0"
+                  "flex h-20 w-full translate-y-8 items-center text-md transition-[color,transform] duration-300 hover:text-gray-400 md:translate-y-0 md:text-sm md:transition-colors",
+                  isOpen && "translate-y-[0rem]"
                 )}
               >
                 {link.label}

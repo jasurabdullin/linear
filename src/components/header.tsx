@@ -30,7 +30,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-10 w-full border-b border-gray-100 backdrop-blur-[12px]">
       <Container className="flex h-20">
-        <div className="flex space-x-6">
+        <div className="flex md:space-x-6">
 
         <Link href="/" className="flex items-center text-md font-medium">
           <Logo className="mr-2 h-[1.8rem] w-[1.8rem]" /> Linear
